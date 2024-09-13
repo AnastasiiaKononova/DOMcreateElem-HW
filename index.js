@@ -1,5 +1,7 @@
-//2
+//3
 
-const section = document.getElementById('my-section');
-section.style.backgroundColor = 'purple';
-section.style.color = 'white';
+
+const uName = prompt("Введите ваше имя:");
+const greetingElem = document.createElement('h1');
+greetingElem.textContent = `Здравствуйте, ${uName}`;
+document.body.append(greetingElem);
